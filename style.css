@@ -6,7 +6,7 @@ body {
   background-color: rgb(59, 128, 107);
   color: rgb(221, 221, 221);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .box {
@@ -18,6 +18,10 @@ body {
   margin: 60px auto;
 }
 
+.title-text {
+  text-shadow: 1px 1px 1px rgb(221, 221, 221);
+}
+
 .box__clock {
   display: flex;
   flex-direction: column;
@@ -27,8 +31,8 @@ body {
   margin: 0 auto;
   width: 450px;
   height: 120px;
-  box-shadow: 0px 0px 20px 2px rgb(221, 221, 221);
-  border-radius: 10px;
+  box-shadow: 0px 0px 3px rgb(221, 221, 221);
+  border-radius: 20px;
 }
 
 .clock-time {
@@ -37,5 +41,5 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: 100px;
+  font-size: 75px;
 }
